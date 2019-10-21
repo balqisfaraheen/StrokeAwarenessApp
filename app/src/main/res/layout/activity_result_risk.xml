@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ResultRisk">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/riskTV"
+                android:layout_width="204dp"
+                android:layout_height="343dp"
+                android:background="#B5EAD7"
+                android:gravity="center"
+                android:text="100%"
+                android:textColor="#000000"
+                android:textSize="60dp"
+                android:textStyle="bold" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/calendarTV"
+                    android:layout_width="204dp"
+                    android:layout_height="70dp"
+                    android:background="#ff9aa2"
+                    android:gravity="center"
+                    android:text="TODAY"
+                    android:textColor="#000000"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/categoryTV"
+                    android:layout_width="218dp"
+                    android:layout_height="270dp"
+                    android:background="#c7ceea"
+                    android:gravity="center"
+                    android:text="LOW RISK"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="60dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:textColor="#000000"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:text="CATEGORY DESCRIPTION :" />
+
+        <TextView
+            android:id="@+id/descriptionTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="30dp"
+            android:text="....description.... " />
+
+    </LinearLayout>
+
+
+
+
+
+</ScrollView>

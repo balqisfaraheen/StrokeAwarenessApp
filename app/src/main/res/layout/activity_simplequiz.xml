@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".simplequiz">
+
+    <ImageView
+        android:layout_width="165dp"
+        android:layout_height="172dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="160dp"
+        android:src="@drawable/startbutton" />
+
+    <Button
+        android:id="@+id/starttBT"
+        android:layout_width="310dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="200dp"
+        android:text="START YOUR QUIZ NOW"
+        android:background="@color/colorPrimary"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+</LinearLayout>

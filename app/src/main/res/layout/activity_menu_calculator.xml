@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/backk">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+
+        <TextView
+            android:layout_width="226dp"
+            android:layout_height="124dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:text="Calculate Your Risk Now"
+            android:textColor="#000000"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/playBT"
+            android:layout_width="74dp"
+            android:layout_height="87dp"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/startbutton" />
+
+        <Button
+            android:id="@+id/startBT"
+            android:layout_width="172dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="20sp"
+            android:layout_marginEnd="50dp"
+            android:background="#ffffff"
+            android:text="START"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

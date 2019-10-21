@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".infoFast">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/aldrich"
+            android:text="F.A.S.T. is an easy way to remember the sudden signs of a stroke."
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_marginTop="40dp"
+                android:layout_width="103dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/ffast" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#bdecb6"
+                android:layout_marginTop="40dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:text="Face Drooping." />
+
+                <TextView
+                    android:layout_width="219dp"
+                    android:layout_height="89dp"
+                    android:text=" Does one side of the face droop or is it numb? Ask the person to smile."
+                    android:textSize="18dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_marginTop="40dp"
+                android:layout_width="103dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/afast" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:background="#bdecb6"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:text="Arm Weakness" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="93dp"
+                    android:text="Is one arm weak or numb? Ask the person to raise both arms. Does one  arm drift downward?"
+                    android:textSize="18dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_marginTop="40dp"
+                android:layout_width="103dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/sfast" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:background="#bdecb6"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:text="Speech Difficulty" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="134dp"
+                    android:text=" Is speech slurred, are they unable to speak, or are they hard to understand? Ask the person to repeat a simple sentence, like sky is blue.” Is the sentence repeated correctly?"
+                    android:textSize="18dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="40dp"
+                android:src="@drawable/tfast1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#bdecb6"
+                android:layout_marginTop="40dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:text=" Time to call 9-1-1 " />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="134dp"
+                    android:text="If the person shows any of these symptoms, even if the symptoms go away, call 9-1-1 and get them to the hospital immediately.."
+                    android:textSize="18dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

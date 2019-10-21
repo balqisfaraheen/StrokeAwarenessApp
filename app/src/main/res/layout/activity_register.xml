@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c0c0c0"
+    android:layout_gravity="center"
+    tools:context=".register">
+
+    <RelativeLayout
+
+        android:id="@+id/childA"
+        android:layout_width="297dp"
+        android:layout_height="436dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/custom_border">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/signup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="SIGN UP"
+                android:textColor="#08090A"
+                android:textSize="20sp" />
+
+
+            <EditText
+                android:id="@+id/fullname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:hint="Fullname"
+                android:textSize="17sp" />
+
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="17"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:textSize="17sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/PasswordET"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/ToggleTV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="SHOW"
+                    android:textSize="12sp" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="2dp"
+                android:text="*Password must be combination of number/alphabet and symbol"
+                android:textColor="#006633"
+                android:textSize="9sp" />
+
+            <EditText
+                android:id="@+id/NoteToMyself"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Note to Self"
+                android:textSize="17sp" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="177dp"
+                android:layout_height="35dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="23dp"
+                android:gravity="center"
+                android:text="SIGN UP" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/login"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="52dp"
+                android:text="Already have an Account?"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="82dp"
+                android:layout_marginTop="2dp"
+                android:text="Log In Here!"
+                android:textColor="#F1B836"
+                android:textSize="12sp" />
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
